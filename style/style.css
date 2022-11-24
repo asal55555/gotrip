@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RR''IRSB';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+h1 {
+    font-family: 'RM';
+}
+
+.header {
+    background: #3E8989;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 0;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    transition: 0.2s;
+
+}
+
+.header-nav-link:hover {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.header-form {
+    max-width: 262px;
+    width: 100%;
+    display: flex;
+    border-radius: 360px;
+    border: 1px solid #FFFFFF;
+
+}
+
+.header-form-text {
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    color: #295E5E;
+    width: 100%;
+}
+
+.header-form-btn {
+    border-radius: 0px 20px 20px 0px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #295E5E;
+    padding: 9px 14px;
+}
+
+.header-content {
+    background: url(../images/222.jpg) no-repeat center /cover;
+   height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-content-title {
+    font-size: 80px;
+    line-height: 95px;
+    color: #FFFFFF;
+    font-family: 'RSB';
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.header-content-title-text {
+    font-family: 'IRSB';
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 47px;
+
+color: #FFFFFF;
+}
+
+.header-content-text {
+    padding: 14px 78px;
+    background: #B4436C;
+    border-radius: 30px;
+    border: 1px solid #B4436C;
+}
+
+.header-content-text:hover {
+    background: transparent;
+    transition: 0.5s;
+}
+
+.main-gear-title {
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'IRBS';
+    text-align: center;
+}
+
+.main-gear {
+    padding: 70px;
+}
+
+.main-gear-title {
+    padding: 50px;
+}
+
+.about-leght {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px  0 ;
+}
+
+.main-gear-text:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-gear-title-text {
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'IRBS';
+    text-align: center;
+}
+.main-clothes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-clothes-item{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;align-items: center;
+
+}
+
+.main-clothes-item{
+    background: #EFEFEF;
+    width: 263px;
+    height: 300px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.main-clothes-title{
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    font-family: 'IRBS';
+}
+.main-gear-title-text {
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'IRBS';
+    text-align: center;
+    padding: 50px;
+}
+
+.main__gear-text {
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'IRBS';
+
+}
+.gear {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.gear__gear-right-text{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 50px;
+    max-width: 515px;
+}
+
+.gear__left-text{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+} 
+
+.footer {
+ background: #3E8989;
+ margin-top: 104px;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'RM';
+    padding-top: 40px;
+    padding-bottom: 59px;
+}
+ 
+.footer__parag {
+    text-align: center;
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.footer__li {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.header-content-text{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;   
+}
